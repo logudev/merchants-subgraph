@@ -13,7 +13,7 @@ const server = new ApolloServer({
 });
 
 server
-  .listen({ port: 4001 })
+  .listen({ port: process.env.PORT || 4001 })
   .then(({ url }) =>
     console.log(`Approach 1 - Merchant Subgraph Server running at ${url}`)
   )
