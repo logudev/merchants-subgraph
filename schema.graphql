@@ -1,0 +1,22 @@
+type Merchant @key(fields: "id") {
+  id: ID!
+  email: String!
+  name: String!
+  capabilities: [MerchantCapability!]!
+  transactions: [Transaction!]
+}
+
+type Transaction @key(fields: "id") {
+  id: ID!
+}
+
+enum MerchantCapability {
+  ALLTAP
+  PLURAL
+  PLUTUS
+}
+
+type Query {
+  merchant(id: ID!): Merchant
+  merchants: [Merchant!]
+}

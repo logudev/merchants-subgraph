@@ -1,0 +1,47 @@
+[
+  {
+    "id": "soP9m8MdKeQX_ZXZOCSaL",
+    "email": "a2b@gmail.com",
+    "name": "A2B Foods",
+    "capabilities": ["PLURAL", "PLUTUS"],
+    "transactionIds": [
+      "abcQAZnLcAsfckewfcowej9sd",
+      "abcQAZnLcAsfc2j13e2JJ8k",
+      "stGQAZnLcjsfcscweHWF23n"
+    ],
+    "PAN": "AB123"
+  },
+  {
+    "id": "GR7vTA_btqTnLtXcEDX8C",
+    "email": "ags@gmail.com",
+    "name": "AGS Entertainment",
+    "capabilities": ["PLURAL", "PLUTUS", "ALLTAP"],
+    "transactionIds": [
+      "uogQAZnLcAlT6lMuNbpQg",
+      "uogQAZnLcAlT6lMuabcdefa",
+      "abcQAZnLckjn321DNQJ1NWd",
+      "stGQAZnLckjjhsJKSjkk44n"
+    ],
+    "PAN": "BC123"
+  },
+  {
+    "id": "yX71WsWqBRAFuMAIDj4W0",
+    "email": "starbucks@gmail.com",
+    "name": "Starbucks Coffee",
+    "capabilities": ["ALLTAP", "PLUTUS"],
+    "transactionIds": ["uogQAZnLcAlT6lkjsefsef", "abcQAZnLcisfc0sns02Dd32n"],
+    "PAN": "CD123"
+  },
+  {
+    "id": "nBXojXeI-54gg8TNf77lB",
+    "email": "croma@gmail.com",
+    "name": "Croma Electronics Coffee",
+    "capabilities": ["ALLTAP", "PLURAL"],
+    "transactionIds": [
+      "uogQAZnLcAlT6loeiwej9sd",
+      "stGQAZnLckjn321DNQJ1NWd",
+      "stGQAZnLckjn3JKeeJHKLNS2"
+    ],
+    "PAN": "DE123"
+  }
+]
