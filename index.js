@@ -10,6 +10,7 @@ const typeDefs = gql`
 
 const server = new ApolloServer({
   schema: buildSubgraphSchema({ typeDefs, resolvers }),
+  introspection: true, // Unset for production
 });
 
 server
